@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <main>
+        <div class="container col card-body">
+            <div class="header card-header">
+                <div class="clear">
+                    <i class="fa fa-refresh"  role="button"></i>
+                </div>
+                <div id="date"></div>
+            </div>
+            <div class="content">
+                <ul id="list list-group">
+                    <li class="item list-group-item d-flex justify-content-around align-items-center">
+                        <i class="fa fa-circle-thin complete"  role="button"></i>
+                        <p class="text">Drink coffe</p>
+                        <i class="fa fa-trash-o delete" role="button"></i>
+                    </li>
+                </ul>
+                <div class="add-item card-footer d-flex justify-content-around align-items-center">
+                    <i class="fa fa-plus-circle"  role="button"></i>
+                    <input type="text" id="input" placeholder="Add a to-do" class="input-group-text">
+                </div>
+            </div>
+        </div>
+    </main>
+	<script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/8ab3b6bdf1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
